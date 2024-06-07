@@ -4,7 +4,7 @@
   "description": "little tiers",
   "main": "http_server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "express": "^4.17.1",
     "low": "^1.1.92",
     "lowdb": "^1.0.0",
+    "mocha": "^10.4.0",
     "puppeteer": "^22.10.0"
   }
 }
